@@ -1,43 +1,90 @@
-Feed0's Monk WeakAuras (Patch 7.1)
-===================
+# ⚔️ World of Warcraft Utilities & Routes
 
-![Windwalker](http://i.imgur.com/Opfs6lc.jpg)
->  1. [WA / Single target](https://github.com/Feed0/Monk/blob/master/Windwalker%20%28DPS%29/1.txt)
->  2. [WA / 2-3 targets](https://github.com/Feed0/Monk/blob/master/Windwalker%20%28DPS%29/2-3.txt)
->  3. [WA / 4+ targets](https://github.com/Feed0/Monk/blob/master/Windwalker%20%28DPS%29/4+.txt))
+## 📖 O projektu
 
-> Talents:
-> Lv 15 : Chi burst (adviced for multi target) / Chi wave (adviced for single target) / Eye of the Tiger (not adviced)
-> Lv 30 : Any lv 30 talent
-> Lv 45 : Energizing Elixir / Power strikes 
-> Lv 60 : Any lv60 talent
-> Lv 75 : Any lv75 talent
-> Lv 90 : Hit Combo (Strongly Adviced) 
-> Lv 100 : Whirling Dragon Punch (strongly adviced)
+Vítejte v centrálním repozitáři pro World of Warcraft utility. Tento projekt slouží jako sbírka optimalizovaných farmících tras, WeakAuras skriptů a dalších nástrojů pro zefektivnění hraní.
 
-![Brewmaster Monk](http://i.imgur.com/H0Z9gkf.jpg)
-> Nothing
+Projekt je strukturován **modulárně** – každá sekce má svou vlastní dokumentaci a specifické instrukce. Pro detaily klikněte na odkazy níže.
 
-![Mistweaver Monk](http://i.imgur.com/JXIOHGB.jpg)
-> Nothing
+-----
 
+## 🗂️ Moduly a Navigace
 
+Vyberte sekci, která vás zajímá:
 
-Warrior
-===================
-Weakauras and ElvUI for Warrior.
-Fury
--------------
-[<i class="icon-refresh"></i> Single Massacre](https://github.com/Feed0/Warrior/blob/master/single_massacre)
-[<i class="icon-refresh"></i> Single Frothing Berserker](https://github.com/Feed0/Warrior/blob/master/single_massacre)
-[<i class="icon-refresh"></i> Multi Target](https://github.com/Feed0/Warrior/blob/master/multi_target)
+### 🌲 1. Farming & Sběr surovin
 
+Optimalizované trasy pro addon **Routes**. Zaměřeno na efektivní sběr dřeva (Lumber) a dalších surovin napříč expanzemi.
 
-#### <i class="icon-file"></i> Talent Compatibility
-- Lvl 15 : War Machine / Endless Rage (adviced) / Fresh Meat (not adviced)
-- Lvl 30 : any talent
-- Lvl 45 : Wrecking Ball (multi target) / Avatar (single target)
-- Lvl 60 : any talent
-- Lvl 75 : Frothing berserker (adviced) / Massacre (execute phase prio) / - Carnage (not adviced)
-- Lvl 90 : Inner rage (adviced), bloodbath
-- Lvl 100 : Reckless Abandon (stongly adviced) / Dragon roar / Bladestorm
+> [\!TIP]
+> **Přejít do sekce:** [**📂 Farming/Lumber routes**](https://www.google.com/search?q=./Farming/Lumber%2520routes/README.md)
+>
+> *Obsahuje: Importovací stringy pro zóny (Ardenweald, Hallowfall, atd.), návod k instalaci a mapy.*
+
+### 🥋 2. Class Utilities (WeakAuras)
+
+Sbírka WeakAuras a UI nastavení pro specifické classy.
+
+  * **Monk (Windwalker / Brewmaster / Mistweaver)**
+      * [Přejít na Monk WA](https://www.google.com/search?q=./README.md%23feed0s-monk-weakauras-patch-71) *(Viz níže v tomto souboru)*
+  * **Warrior (Fury)**
+      * [Přejít na Warrior WA](https://www.google.com/search?q=./README.md%23warrior) *(Viz níže v tomto souboru)*
+
+-----
+
+## 🚀 Rychlý start
+
+Tento repozitář vyžaduje specifické addony pro správnou funkčnost obsahu.
+
+| Typ obsahu | Vyžadovaný Addon | Odkaz ke stažení |
+| :--- | :--- | :--- |
+| **Farming Trasy** | Routes | [CurseForge](https://www.curseforge.com/wow/addons/routes) |
+| **Class Skripty** | WeakAuras | [CurseForge](https://www.curseforge.com/wow/addons/weakauras-2) |
+
+### Jak používat tento repozitář?
+
+1.  **Vyberte si modul** výše (např. Farming).
+2.  **Otevřete `README.md` dané složky** pro specifické instrukce.
+3.  **Zkopírujte import string** ze souboru `.txt`.
+4.  **Vložte do addonu** ve hře.
+
+-----
+
+## 📦 Struktura repozitáře
+
+```text
+root/
+├── 📂 Farming/
+│   └── 📂 Lumber routes/
+│       ├── 📄 README.md       <-- Dokumentace pro farming
+│       ├── 📜 Ardenweald.txt
+│       ├── 📜 Hallowfall.txt
+│       └── ...
+├── 📄 README.md               <-- (Jste zde) Hlavní rozcestník
+└── ... (Další soubory)
+```
+
+-----
+
+## 🛠️ Legacy Content (Starší verze)
+
+*Níže naleznete původní dokumentaci pro Class WeakAuras (Patch 7.x).*
+
+### Feed0's Monk WeakAuras (Patch 7.1)
+
+  * **Single target:** [Odkaz na skript](https://www.google.com/search?q=%23)
+  * **Multi target (2-3):** [Odkaz na skript](https://www.google.com/search?q=%23)
+  * **AOE (4+):** [Odkaz na skript](https://www.google.com/search?q=%23)
+
+### Warrior
+
+WeakAuras a ElvUI pro Warriora (Fury).
+
+  * **Single Massacre:** [Odkaz na skript](https://www.google.com/search?q=%23)
+  * **Multi Target:** [Odkaz na skript](https://www.google.com/search?q=%23)
+
+-----
+
+###### 📝 Licence & Kontakt
+
+*Projekt je udržován komunitou. Pokud máte vylepšení tras, neváhejte vytvořit Pull Request.*
