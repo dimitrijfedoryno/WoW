@@ -29,7 +29,7 @@ Před importem se ujistěte, že splňujete následující:
 
   * 🎮 **Hra:** World of Warcraft Retail (verze 11.2.7)
   * 🛠️ **Addon:** [Routes](https://www.curseforge.com/wow/addons/routes) (nainstalovaný a aktivní)
-  * * 🛠️ **Addon:** [Routes Import/Export](https://www.curseforge.com/wow/addons/routes-import-export) (nainstalovaný a aktivní)
+  * 🛠️ **Addon:** [Routes Import/Export](https://www.curseforge.com/wow/addons/routes-import-export) (nainstalovaný a aktivní)
 
 -----
 
